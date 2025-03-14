@@ -1,0 +1,27 @@
+body{
+    background-color: dimgrey;
+    text-align: center;
+}
+#Char{
+    color: #4B0082;
+    text-shadow: 2px 2px #966919;
+}
+#Kitana{
+    color:darkblue;
+    text-shadow: 1px 1px #451800;
+}
+#Mileena{
+    color: #FF40B2 ;
+    text-shadow: 1px 1px goldenrod;
+}
+a{
+    color: silver;
+    text-decoration: none;
+}
+a:hover{
+    color: gold;
+    text-decoration: none;
+}
+#Relate{
+    color: #4B0082;
+}
