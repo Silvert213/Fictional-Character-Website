@@ -1,16 +1,38 @@
+@font-face {
+    font-family: vel;
+    src: url(VELISTA.ttf);
+}
+@font-face {
+    font-family: Anger;
+    src: url(AngerStyles.ttf);
+}
+@font-face {
+    font-family: celtg;
+    src: url(CELTG___.TTF);
+}
+
+
+
+
 body{
     background-color: dimgrey;
     text-align: center;
 }
 #Char{
+    font-family: celtg;
     color: #4B0082;
     text-shadow: 2px 2px #966919;
 }
+.img{
+   border-color: black;
+}
 #Kitana{
+    font-family: vel;
     color:darkblue;
     text-shadow: 1px 1px #451800;
 }
 #Mileena{
+    font-family: Anger;
     color: #FF40B2 ;
     text-shadow: 1px 1px goldenrod;
 }
@@ -23,5 +45,7 @@ a:hover{
     text-decoration: none;
 }
 #Relate{
+    font-family: celtg;
     color: #4B0082;
+    text-decoration: solid;
 }
