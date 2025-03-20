@@ -10,12 +10,43 @@
     font-family: celtg;
     src: url(CELTG___.TTF);
 }
-
-
-
-
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4B0082;
+  }
+  li{
+    display: inline-block;
+  }
+li a {
+    display: inline-block;
+    color: gold;
+    text-align: center;
+    padding: 4px 6px;
+    text-decoration: none;
+  }
+li a:hover {
+    background-color: #111;
+  }
+  .sidenav {
+    width: 130px;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: dimgray;
+    overflow-x: hidden;
+    padding: 8px 0;
+    color: gold;
+  }  
 body{
     background-color: dimgrey;
+    background-image: url('desktop-wallpaper-mortal-kombat-logo-gray-creative-background-mortal-kombat-emblem-gray-paper-texture-mortal-kombat-gray-background-mortal-kombat-3d-logo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     text-align: center;
 }
 #Char{
@@ -44,7 +75,7 @@ a:hover{
     color: gold;
     text-decoration: none;
 }
-#Relate{
+#Both{
     font-family: celtg;
     color: #4B0082;
     text-decoration: solid;
